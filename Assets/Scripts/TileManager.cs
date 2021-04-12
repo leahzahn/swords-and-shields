@@ -36,6 +36,7 @@ public class TileManager : MonoBehaviour
             Tiles[i].owner = Owner.None;
             Tiles[i].sword.SetActive(false);
             Tiles[i].shield.SetActive(false);
+            Tiles[i].clicked = false;
         }
         CurrentPlayer = Owner.Sword;
         counter = 0;
